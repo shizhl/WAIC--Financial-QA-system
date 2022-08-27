@@ -1,0 +1,107 @@
+{
+  "builder_name": "json",
+  "citation": "",
+  "config_name": "default-8a8c25fed99eb4dc",
+  "dataset_size": 216772602,
+  "description": "",
+  "download_checksums": {
+    "/data/shizhengliang-slurm/EXP/seq2seqV4/datasets7/test.json": {
+      "checksum": "6b2a0fc3fbe29c8826fa653ad8b785b0415afb8b1fa93c67c802c0ecd6e33e23",
+      "num_bytes": 494459
+    },
+    "/data/shizhengliang-slurm/EXP/seq2seqV4/datasets7/train_big.json": {
+      "checksum": "f60194fe2ea33da46a377e17defbb2f5ba44076b5cd1fa13151d224c465cd510",
+      "num_bytes": 407714881
+    },
+    "/data/shizhengliang-slurm/EXP/seq2seqV4/datasets7/valid.json": {
+      "checksum": "08732c2dfd471bfecbc8bc20d06d80c7e420add963683eaf5180d8457c833491",
+      "num_bytes": 1294396
+    }
+  },
+  "download_size": 409503736,
+  "features": {
+    "attention_mask": {
+      "_type": "Sequence",
+      "feature": {
+        "_type": "Value",
+        "dtype": "int64",
+        "id": null
+      },
+      "id": null,
+      "length": -1
+    },
+    "content": {
+      "_type": "Value",
+      "dtype": "string",
+      "id": null
+    },
+    "input_ids": {
+      "_type": "Sequence",
+      "feature": {
+        "_type": "Value",
+        "dtype": "int64",
+        "id": null
+      },
+      "id": null,
+      "length": -1
+    },
+    "labels": {
+      "_type": "Sequence",
+      "feature": {
+        "_type": "Value",
+        "dtype": "int64",
+        "id": null
+      },
+      "id": null,
+      "length": -1
+    },
+    "summary": {
+      "_type": "Value",
+      "dtype": "string",
+      "id": null
+    },
+    "token_type_ids": {
+      "_type": "Sequence",
+      "feature": {
+        "_type": "Value",
+        "dtype": "int64",
+        "id": null
+      },
+      "id": null,
+      "length": -1
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "post_processed": null,
+  "post_processing_size": null,
+  "size_in_bytes": 626276338,
+  "splits": {
+    "test": {
+      "dataset_name": "json",
+      "name": "test",
+      "num_bytes": 250127,
+      "num_examples": 2409
+    },
+    "train": {
+      "dataset_name": "json",
+      "name": "train",
+      "num_bytes": 215825195,
+      "num_examples": 376948
+    },
+    "validation": {
+      "dataset_name": "json",
+      "name": "validation",
+      "num_bytes": 697280,
+      "num_examples": 1920
+    }
+  },
+  "supervised_keys": null,
+  "version": {
+    "description": null,
+    "major": 0,
+    "minor": 0,
+    "patch": 0,
+    "version_str": "0.0.0"
+  }
+}

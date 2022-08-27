@@ -1,0 +1,68 @@
+.
+├── args.py
+├── BestCheckpoint
+│   ├── config.json
+│   ├── optimizer.pt
+│   ├── pytorch_model.bin
+│   ├── scheduler.pt
+│   ├── special_tokens_map.json
+│   ├── tokenizer_config.json
+│   ├── trainer_state.json
+│   ├── training_args.bin
+│   └── vocab.txt
+├── dataprepare.py
+├── dataset_maker.py
+├── datasets
+│   ├── dataset_dict.json
+│   ├── test
+│   │   ├── cache-7c5e3e9ecb704a31.arrow
+│   │   ├── dataset_info.json
+│   │   └── state.json
+│   ├── test_.json
+│   ├── test.txt
+│   ├── train
+│   │   ├── cache-befd04cbc1089214.arrow
+│   │   ├── dataset_info.json
+│   │   └── state.json
+│   ├── train_.json
+│   ├── validation
+│   │   ├── cache-d126d4c4bb3bd269.arrow
+│   │   ├── dataset_info.json
+│   │   └── state.json
+│   └── valid_.json
+├── evaluation.py
+├── inference.py
+├── list.txt
+├── logs
+│   └── seq2seqV4
+│       └── waic
+│           └── model
+│               ├── checkpoint-27
+│               │   ├── config.json
+│               │   └── pytorch_model.bin
+│               └── checkpoint-7
+│                   ├── config.json
+│                   └── pytorch_model.bin
+├── magic_bart2.py
+├── __pycache__
+│   ├── args.cpython-38.pyc
+│   ├── dataset_maker.cpython-38.pyc
+│   ├── evaluation.cpython-38.pyc
+│   └── magic_bart2.cpython-38.pyc
+├── requirements.txt
+├── runs
+│   ├── Aug27_12-16-59_gpu06
+│   │   ├── 1661573857.9013176
+│   │   │   └── events.out.tfevents.1661573857.gpu06.73847.1
+│   │   └── events.out.tfevents.1661573857.gpu06.73847.0
+│   ├── Aug27_12-27-39_gpu06
+│   │   ├── 1661574482.425313
+│   │   │   └── events.out.tfevents.1661574482.gpu06.137973.1
+│   │   └── events.out.tfevents.1661574482.gpu06.137973.0
+│   └── Aug27_12-31-43_gpu06
+│       ├── 1661574735.7106016
+│       │   └── events.out.tfevents.1661574735.gpu06.157705.1
+│       └── events.out.tfevents.1661574735.gpu06.157705.0
+└── train.py
+
+19 directories, 46 files
