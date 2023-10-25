@@ -1,6 +1,8 @@
 # World Artificial Intelligence Conference (WAIC) Competition
 
+Code for World Artificial Intelligence Conference Competition (Finance Question-Answering System) hold by Chinese Academy of Sciences & Alibaba Cloud.
 
+We have won the third prize in the competition (7/4200).
 
 ## Dataset and pre-process
 
