@@ -80,11 +80,11 @@ specifically, the parameter configure is:
 
 The successful running state:
 
-![image-20220827092842568](readme/image-20220827092842568.png)
+![image-20220827092842568](./WAIC/readme/image-20220827092842568.png)
 
 after processing:
 
-![image-20220827092303541](readme/image-20220827092303541.png)
+![image-20220827092303541](./WAIC/readme/image-20220827092303541.png)
 
 **The huggingface-style datasets are stored in the `datasets` folder by default. In our project, we have provided the hugging face style datasets for practical purposes. **
 
@@ -134,12 +134,12 @@ The details for configures are:
 
 The successful running state.
 
-![image-20220827094307857](readme/image-20220827094307857.png)
+![image-20220827094307857](./WAIC/readme/image-20220827094307857.png)
 
 
 training process
 
-![image-20220827094819463](readme/image-20220827094819463.png)
+![image-20220827094819463](./WAIC/readme/image-20220827094819463.png)
 
 
 
@@ -172,7 +172,7 @@ In our experiment, we use 4 TITAN RTX 3090 (24G) to train our model. We evaluate
 
 The results in the test dataset are as follows, which win the third prize in the WAIC competition.
 
-![image-20220827095211667](readme/image-20220827095211667.png)
+![image-20220827095211667](./WAIC/readme/image-20220827095211667.png)
 
 
 
