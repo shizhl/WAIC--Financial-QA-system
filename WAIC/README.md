@@ -5,7 +5,7 @@
 ## Dataset and pre-process
 
 
-For each query $q$, we first search the similar queries $`Q'={q'_1, q'_2,...}`$ and corresponding answers $`A'={a'_1, a'_2,...}`$ from different corpus. The data format is:
+For each query $` q `$, we first search the similar queries $`Q'={q'_1, q'_2,...}`$ and corresponding answers $`A'={a'_1, a'_2,...}`$ from different corpus. The data format is:
 
 ```txt
 {
