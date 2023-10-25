@@ -166,7 +166,9 @@ python inference.py  \
 ## Environment configure
 
 
-In our experiment, we use 4 TITAN RTX 3090 (24G) to train our model. We evaluate our checkpoint on the validation dataset and test on the test dataset. The result in the test dataset is:
+In our experiment, we use 4 TITAN RTX 3090 (24G) to train our model. We evaluate our checkpoint on the validation dataset and test on the test dataset. 
+
+The results in the test dataset are as follows, which win the third prize in the WAIC competition.
 
 ![image-20220827095211667](readme/image-20220827095211667.png)
 
@@ -179,7 +181,7 @@ In our experiment, we use 4 TITAN RTX 3090 (24G) to train our model. We evaluate
 For any questions, feel free to contact me via email
 
 ```txt
-Email : 1172159897@qq.com ; shizhl@mail.sdu.edu.cn
+shizhl@mail.sdu.edu.cn
 ```
 
 ## Project folder for reference
