@@ -5,7 +5,7 @@
 ## Dataset and pre-process
 
 
-For each query $` q `$, we first search the similar queries $`Q'={q'_1, q'_2,...}`$ and corresponding answers $`A'={a'_1, a'_2,...}`$ from different corpus. The data format is:
+For each raw query _q_, we first search the similar queries _Q'_ and corresponding answers _A'_ from different corpus. The data format is:
 
 ```txt
 {
@@ -26,7 +26,7 @@ For each query $` q `$, we first search the similar queries $`Q'={q'_1, q'_2,...
 }
 ```
 
-The answers $A'$ are rich in external knowledge, which will be taken as input paired with raw query $`q`$. The details for code implementation can be found in the `dataprepare.py` file. 
+The answers _A'_ are rich in external knowledge, which will be taken as input paired with raw query _q_. The details for code implementation can be found in the `dataprepare.py` file. 
 
 
 Run the following commend to pre-process the data.
