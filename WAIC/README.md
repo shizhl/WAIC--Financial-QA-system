@@ -165,12 +165,8 @@ python inference.py  \
 
 ## Environment configure
 
-The GPU device is:
 
-![image-20220827095138567](readme/image-20220827095138567-16615650988311.png)
-
-
-We evaluate our checkpoint on the validation dataset and test on the test dataset. The result in the test dataset is:
+In our experiment, we use 4 TITAN RTX 3090 (24G) to train our model. We evaluate our checkpoint on the validation dataset and test on the test dataset. The result in the test dataset is:
 
 ![image-20220827095211667](readme/image-20220827095211667.png)
 
